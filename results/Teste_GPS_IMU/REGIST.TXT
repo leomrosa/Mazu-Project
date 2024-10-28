@@ -1,0 +1,10 @@
+Device Registration Information
+-----------------------------
+
+Device ID:          LIMPID
+Firmware Version:  1.0.0
+
+Key Information:
+----------------
+Generated Key:     FjtrOJGI1I
+

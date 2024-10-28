@@ -1,0 +1,17 @@
+.EVP-ASKC1A :1 ;Tactile Switches 3N 6x6.1x5mm 1.3mm Travel Black
+EVPASKC1A
+*STM S
+*NGS
+*PNM 1=A1 2=B1
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN EVP-ASKC1A
+~!Mouser Part Number (667-EVP-ASKC1A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-ASKC1A?qs=gTYE2QTfZfQol0eOIUHCMQ%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EVP-ASKC1A)
+~!Link Datasheet (https://industrial.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long_2t.pdf)
+~!Height (5.2mm)
+~!3D_Model (EVP-ASKC1A)
+EVP-ASKC1A
+1.1!U 2.1!U 

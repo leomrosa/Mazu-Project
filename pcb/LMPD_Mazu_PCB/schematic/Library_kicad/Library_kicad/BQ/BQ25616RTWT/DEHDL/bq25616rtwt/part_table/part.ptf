@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BQ25616RTWT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "BQ25616RTWT" (!) = "", "QFN50P400X400X80-25N-D", "Quad Flat No-Lead", "595-BQ25616RTWT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25616RTWT?qs=GBLSl2AkirsF1eaqdbkEeA%3D%3D", "Battery Management Standalone 1-cell 3.0-A buck battery charger with power path and 1.2-A boost operation 24-WQFN -40 to 85", "https://www.ti.com/lit/gpn/BQ25616", "0.8 mm"
+END_PART
+
+END.

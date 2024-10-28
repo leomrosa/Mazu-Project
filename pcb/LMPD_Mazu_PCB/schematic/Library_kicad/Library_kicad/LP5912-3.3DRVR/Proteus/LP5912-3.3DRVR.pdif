@@ -1,0 +1,133 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LP5912-3.3DRVR"
+   (description "500-mA low-noise low-IQ low-dropout (LDO) linear regulator")
+   (family "ANA")
+   (package "SON65P200X200X80-7N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/lp5912")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "595-LP5912-3.3DRVR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5912-3.3DRVR?qs=n%252BTO0c4TDSY0RMrHlK%2FGvQ%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LP5912-3.3DRVR")
+   (gate
+    (symbol "LP5912-3.3DRVR")
+    (pin "OUT" 1 PS)
+    (pin "NC" 2 NC)
+    (pin "PG" 3 PS)
+    (pin "EP" 7 PS)
+    (pin "IN" 6 PS)
+    (pin "GND" 5 PS)
+    (pin "EN" 4 PS)
+   )
+  )
+  (symbol "LP5912-3.3DRVR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SON65P200X200X80-7N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.6 1.3)
+      (pt 1.6 1.3)
+      (pt 1.6 -1.3)
+      (pt -1.6 -1.3)
+      (pt -1.6 1.3))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1)
+      (pt 1 1)
+      (pt 1 -1)
+      (pt -1 -1)
+      (pt -1 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 0.5)
+      (pt -0.5 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -1.225 1.325) (pt -1.475 1.325)
+     )
+    )
+   )
+   (leg 1 (pt -1.05 0.65) (padstack 0))
+   (leg 2 (pt -1.05 0) (padstack 0))
+   (leg 3 (pt -1.05 -0.65) (padstack 0))
+   (leg 4 (pt 1.05 -0.65) (padstack 0))
+   (leg 5 (pt 1.05 0) (padstack 0))
+   (leg 6 (pt 1.05 0.65) (padstack 0))
+   (leg 7 (pt 0 0) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.35 0.6 0 0 0))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 1.1 1.7 0 0 90))
+   )
+   (model "LP5912-3.3DRVR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

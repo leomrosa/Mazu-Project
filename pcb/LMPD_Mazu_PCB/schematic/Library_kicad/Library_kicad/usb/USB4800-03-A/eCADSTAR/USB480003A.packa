@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "USB4800-03-A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-03-12:19:55)
+    (mountForm default
+        (footprintRef "USB480003A")
+        (spec "System")
+    )
+)

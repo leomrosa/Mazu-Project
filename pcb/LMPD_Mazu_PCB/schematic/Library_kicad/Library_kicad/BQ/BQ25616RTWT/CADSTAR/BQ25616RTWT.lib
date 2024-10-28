@@ -1,0 +1,16 @@
+.BQ25616RTWT :1 ;Battery Management Standalone 1-cell 3.0-A buck battery charger with power path and 1.2-A boost operation 24-WQFN -40 to 85
+QFN50P400X400X80-25N-D
+*STM IC
+*NGS
+*PLB 1="VAC" 2="ACDRV" 3="D+" 4="D-" 5="STAT" 6="OTG" 7="'PG'" 8="ILIM" 9="'CE'" 10="ICHG" 11="TS" 12="VSET" 13="BAT_1" 14="BAT_2" 15="SYS_1" 16="SYS_2" 17="GND_1" 18="GND_2" 19="SW_1" 20="SW_2" 21="BTST" 22="REGN" 23="PMID" 24="VBUS" 25="EP"
+*MXP 25
+*DFN BQ25616RTWT
+~!Mouser Part Number (595-BQ25616RTWT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25616RTWT?qs=GBLSl2AkirsF1eaqdbkEeA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (BQ25616RTWT)
+~!Link Datasheet (https://www.ti.com/lit/gpn/BQ25616)
+~!Height (0.8mm)
+~!3D_Model (BQ25616RTWT)
+BQ25616RTWT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 

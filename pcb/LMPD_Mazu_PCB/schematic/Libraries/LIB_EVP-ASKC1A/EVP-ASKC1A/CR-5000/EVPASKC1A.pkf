@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EVPASKC1A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EVPASKC1A")
+        (spec "default")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EVP-ASKC1A
+D Tactile Switches 3N 6x6.1x5mm 1.3mm Travel Black
+K
+F https://industrial.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long_2t.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12008831"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-09-02:37:10)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "A1" (symbPinId 1) (portType INOUT))
+        (port "B1" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "EVP-ASAC1A")
+)
+
+
+(pinAssign "ECS_12008831"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-09-02:37:10)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "A1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "B1" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12008831")
+                (port "A1" (match "A1"))
+                (port "B1" (match "B1"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "EVP-ASAC1A")
+)
+
+
+(part "EVP-ASAC1A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-09-02:37:10)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "EVP-ASAC1A")
+    (pinAssignRef "ECS_12008831")
+    (interface
+        (port "A1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "B1" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Tactile Switches Swtch Lite Touch SMD 5mm ht J-bent 1.6N")
+    (property "Mouser_Part_Number" "667-EVP-ASAC1A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-ASAC1A?qs=aeOb9a4xWfmZSZe%2FBR5y%252BA%3D%3D")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "EVP-ASAC1A")
+    (property "Datasheet_Link" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long_2t.pdf")
+    (property "compAreaTopHeight" 5.2)
+)
+
+

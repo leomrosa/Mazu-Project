@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EVP-ASAC1A
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-04-09 02:37:10
+Downloaded=2024-10-11 10:34:23
+3D=Y

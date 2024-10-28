@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EVP-ASKC1A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-27-13:19:46)
+    (mountForm default
+        (footprintRef "EVPASKC1A")
+        (spec "System")
+    )
+)

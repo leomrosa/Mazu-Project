@@ -1,0 +1,148 @@
+
+(EDIF
+  (rename &LP5912_3_3DRVR "LP5912_3_3DRVR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 10 02 00 30 04)
+      (dataOrigin "355048/1207301/2.50/7/4/Integrated Circuit")
+      (program "SamacSys ECAD Model LP5912_3_3DRVR"
+        (version "2.1"))))
+  (library
+  (rename &LP5912_3_3DRVR "LP5912_3_3DRVR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &LP5912_3_3DRVR "LP5912_3_3DRVR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "LP5912_3_3DRVR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SON65P200X200X80-7N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "595-LP5912-3.3DRVR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5912-3.3DRVR?qs=n%252BTO0c4TDSY0RMrHlK%2FGvQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Texas Instruments"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "LP5912-3.3DRVR"))
+          (property (rename &Description "Description") (string "500-mA low-noise low-IQ low-dropout (LDO) linear regulator"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.ti.com/lit/gpn/lp5912"))
+          (property (rename &Height "Height") (string "0.8 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "LP5912_3_3DRVR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &OUT "OUT")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &PG "PG")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &EN "EN")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND "GND")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &IN "IN")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &EP "EP")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &OUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &PG (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &EP (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -800) (pt 300 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -800))))
+            )
+            (portImplementation
+              (name &IN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -100) (pt 800 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -100))))
+            )
+            (portImplementation
+              (name &GND (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -200) (pt 800 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -200))))
+            )
+            (portImplementation
+              (name &EN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -300) (pt 800 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 600 0)
+                  (pt 600 -600)
+                  (pt 0 -600)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,16 @@
+.ADS1115IDGSR :1 ;16-Bit 860SPS 4-Ch Delta-Sigma ADC With PGA, Oscillator, Vref, Comparator, and I2C
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="ADDR" 2="ALERT/RDY" 3="GND" 4="AIN0" 5="AIN1" 6="AIN2" 7="AIN3" 8="VDD" 9="SDA" 10="SCL"
+*MXP 10
+*DFN ADS1115IDGSR
+~!Mouser Part Number (595-ADS1115IDGSR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1115IDGSR?qs=IK5e5L0zOXjKCJoVMhYO%2FQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS1115IDGSR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ADS1115)
+~!Height (1.1mm)
+~!3D_Model (ADS1115IDGSR)
+ADS1115IDGSR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

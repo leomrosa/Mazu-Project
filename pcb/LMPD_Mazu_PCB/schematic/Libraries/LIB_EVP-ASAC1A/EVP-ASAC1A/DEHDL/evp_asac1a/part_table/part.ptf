@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EVP_ASAC1A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "EVP-ASAC1A" (!) = "", "EVPASAC1A", "Other", "667-EVP-ASAC1A", "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-ASAC1A?qs=aeOb9a4xWfmZSZe%2FBR5y%252BA%3D%3D", "Tactile Switches Swtch Lite Touch SMD 5mm ht J-bent 1.6N", "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long_2t.pdf", "5.2 mm"
+END_PART
+
+END.

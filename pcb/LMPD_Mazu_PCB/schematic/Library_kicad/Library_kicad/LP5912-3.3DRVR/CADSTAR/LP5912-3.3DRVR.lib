@@ -1,0 +1,16 @@
+.LP5912-3.3DRVR :1 ;500-mA low-noise low-IQ low-dropout (LDO) linear regulator
+SON65P200X200X80-7N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="NC" 3="PG" 4="EN" 5="GND" 6="IN" 7="EP"
+*MXP 7
+*DFN LP5912-3.3DRVR
+~!Mouser Part Number (595-LP5912-3.3DRVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5912-3.3DRVR?qs=n%252BTO0c4TDSY0RMrHlK%2FGvQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LP5912-3.3DRVR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lp5912)
+~!Height (0.8mm)
+~!3D_Model (LP5912-3.3DRVR)
+LP5912-3.3DRVR
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 

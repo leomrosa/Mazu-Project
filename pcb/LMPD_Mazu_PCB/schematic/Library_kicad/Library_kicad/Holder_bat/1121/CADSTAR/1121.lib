@@ -1,0 +1,17 @@
+.1121 :1 ;Cylindrical Battery Contacts, Clips, Holders & Springs THM BATTERY HOLDER FOR 20700 & 21700
+"1121"
+*STM U
+*NGS
+*PNM 1=1 2=2 3=MH1 4=MH2
+*PLB 1="1" 2="2" 3="MH1" 4="MH2"
+*MXP 5
+*DFN 1121
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (1121)
+~!Link Datasheet (https://www.keyelco.com/product.cfm/product_id/14553)
+~!Height (17.27mm)
+~!3D_Model (1121)
+"1121"
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EVP-ASAC1A"
+   (description "Tactile Switches Swtch Lite Touch SMD 5mm ht J-bent 1.6N")
+   (family "SWI")
+   (package "EVPASAC1A")
+   (attribute "Datasheet Link" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long_2t.pdf")
+   (attribute "Geometry.Height" "5.2mm")
+   (attribute "Mouser Part Number" "667-EVP-ASAC1A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-ASAC1A?qs=aeOb9a4xWfmZSZe%2FBR5y%252BA%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "EVP-ASAC1A")
+   (gate
+    (symbol "EVP-ASAC1A")
+    (pin "COM" A1 PS)
+    (pin "NO" B1 PS)
+   )
+  )
+  (symbol "EVP-ASAC1A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "EVPASAC1A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 3.05)
+      (pt 3 3.05)
+      (pt 3 -3.05)
+      (pt -3 -3.05)
+      (pt -3 3.05))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5 4.05)
+      (pt 5 4.05)
+      (pt 5 -4.05)
+      (pt -5 -4.05)
+      (pt -5 4.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 1.4)
+      (pt -3 3.05)
+      (pt 3 3.05)
+      (pt 3 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 -1.4)
+      (pt -3 -3.05)
+      (pt 3 -3)
+      (pt 3 -1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.6 0)
+      (arc (pt -4.600 0.000) (pt -4.600 -0.050) (pt -4.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -4.5 0)
+      (arc (pt -4.500 0.000) (pt -4.600 -0.050) (pt -4.500 0.050) (start 180.0) (sweep .0))
+      (pt -4.6 0))))
+   (leg A1 (pt -3.000 0.000) (padstack 0))
+   (leg B1 (pt 3.000 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 2.000))
+   )
+   (model "EVP-ASAC1A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

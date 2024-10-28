@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LP5912_3.3DRVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LP5912-3.3DRVR" (!) = "", "SON65P200X200X80-7N", "Small Outline No-lead", "595-LP5912-3.3DRVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5912-3.3DRVR?qs=n%252BTO0c4TDSY0RMrHlK%2FGvQ%3D%3D", "500-mA low-noise low-IQ low-dropout (LDO) linear regulator", "http://www.ti.com/lit/gpn/lp5912", "0.8 mm"
+END_PART
+
+END.

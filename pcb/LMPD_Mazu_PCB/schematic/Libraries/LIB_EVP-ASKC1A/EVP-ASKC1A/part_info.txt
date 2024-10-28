@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EVP-ASKC1A
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.10
+Released=2020-09-27 13:19:46
+Downloaded=2024-10-10 22:18:39
+3D=Y

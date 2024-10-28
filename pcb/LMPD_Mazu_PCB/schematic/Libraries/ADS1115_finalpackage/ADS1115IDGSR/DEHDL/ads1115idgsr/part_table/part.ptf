@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS1115IDGSR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS1115IDGSR" (!) = "", "SOP50P490X110-10N", "Small Outline Packages", "595-ADS1115IDGSR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1115IDGSR?qs=IK5e5L0zOXjKCJoVMhYO%2FQ%3D%3D", "16-Bit 860SPS 4-Ch Delta-Sigma ADC With PGA, Oscillator, Vref, Comparator, and I2C", "http://www.ti.com/lit/gpn/ADS1115", "1.1 mm"
+END_PART
+
+END.

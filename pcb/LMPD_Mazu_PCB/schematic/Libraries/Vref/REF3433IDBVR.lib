@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LT1461CIS8-4#PBF
+#
+DEF LT1461CIS8-4#PBF U 0 40 Y Y 1 F N
+F0 "U" 100 400 50 H V C CNN
+F1 "LT1461CIS8-4#PBF" 150 300 50 H V C CNN
+F2 "" 100 400 50 H I C CNN
+F3 "" 100 400 50 H I C CNN
+DRAW
+S -200 200 500 -200 0 1 20 f
+X DNC* 1 -300 150 100 R 50 50 1 1 I
+X VIN 2 -300 50 100 R 50 50 1 1 I
+X SHDN 3 -300 -50 100 R 50 50 1 1 B
+X GND 4 -300 -150 100 R 50 50 1 1 W
+X DNC* 5 600 150 100 L 50 50 1 1 I
+X DNC* 6 600 50 100 L 50 50 1 1 I
+X VOUT 7 600 -50 100 L 50 50 1 1 O
+X DNC* 8 600 -150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# REF3433IDBVR
+#
+DEF REF3433IDBVR U 0 40 Y Y 1 L N
+F0 "U" -300 289 50 H V L BNN
+F1 "REF3433IDBVR" -50 293 50 H V L BNN
+F2 "SOT95P280X145-6N" 700 -1700 50 H I L BNN
+F3 "" 200 -250 50 H I L BNN
+F4 "Texas Instruments" 150 -750 50 H I L BNN "MF"
+F5 "\\n3.3-V, low-drift, low-power, small-footprint series voltage reference\\n" 700 -1700 50 H I L BNN "Description"
+F6 "SOT-23-6 Texas Instruments" 700 -1700 50 H I L BNN "Package"
+F7 "None" 550 -950 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/REF3433IDBVR/Texas+Instruments/view-part/?ref=snap" 700 -1700 50 H I L BNN "SnapEDA_Link"
+F9 "REF3433IDBVR" 550 -950 50 H I L BNN "MP"
+F10 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2889946&manufacturer=Texas Instruments&part_name=REF3433IDBVR&search_term=ref3433idbvr" 700 -1700 50 H I L BNN "Purchase-URL"
+F11 "In Stock" 550 -950 50 H I L BNN "Availability"
+F12 "https://www.snapeda.com/parts/REF3433IDBVR/Texas+Instruments/view-part/?ref=eda" 700 -1700 50 H I L BNN "Check_prices"
+DRAW
+S -300 -300 300 250 0 0 16 f
+X GND_F 1 500 -100 200 L 40 40 0 0 W
+X GND_S 2 500 -200 200 L 40 40 0 0 W
+X ENABLE 3 -500 -150 200 R 40 40 0 0 B
+X IN 4 -500 100 200 R 40 40 0 0 I
+X OUT_S 5 500 50 200 L 40 40 0 0 O
+X OUT_F 6 500 150 200 L 40 40 0 0 O
+ENDDRAW
+ENDDEF
+#
+#End Library

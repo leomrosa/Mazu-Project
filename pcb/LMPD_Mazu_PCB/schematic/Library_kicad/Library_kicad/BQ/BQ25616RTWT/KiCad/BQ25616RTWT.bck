@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ25616RTWT
+D Battery Management Standalone 1-cell 3.0-A buck battery charger with power path and 1.2-A boost operation 24-WQFN -40 to 85
+F https://www.ti.com/lit/gpn/BQ25616
+$ENDCMP
+#
+#End Doc Library

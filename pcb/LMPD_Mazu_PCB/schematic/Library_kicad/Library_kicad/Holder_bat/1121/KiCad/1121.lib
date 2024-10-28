@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1121
+#/12321952/1207301/2.50/4/4/Undefined or Miscellaneous
+DEF 1121 U 0 30 Y Y 1 F N
+F0 "U" 650 600 50 H V L CNN
+F1 "1121" 650 500 50 H V L CNN
+F2 "1121" 650 400 50 H I L CNN
+F3 "https://www.keyelco.com/product.cfm/product_id/14553" 650 300 50 H I L CNN
+F4 "Cylindrical Battery Contacts, Clips, Holders & Springs THM BATTERY HOLDER FOR 20700 & 21700" 650 200 50 H I L CNN "Description"
+F5 "17.27" 650 100 50 H I L CNN "Height"
+F6 "" 650 0 50 H I L CNN "TME Electronic Components Part Number"
+F7 "" 650 -100 50 H I L CNN "TME Electronic Components Price/Stock"
+F8 "Keystone Electronics" 650 -200 50 H I L CNN "Manufacturer_Name"
+F9 "1121" 650 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X MH1 MH1 400 -600 200 U 50 50 0 0 P
+X MH2 MH2 400 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 600 400 600 -400 200 -400 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library

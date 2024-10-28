@@ -1,0 +1,9 @@
+Manufacturer=GCT (GLOBAL CONNECTOR TECHNOLOGY)
+PartNumber=USB4800-03-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=16
+Version=1.10
+Released=2022-09-03 12:19:55
+Downloaded=2023-09-11 23:47:18
+3D=Y

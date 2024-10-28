@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# UDZSTE-173.6B
+#
+DEF UDZSTE-173.6B D 0 40 Y N 1 L N
+F0 "D" -90 75 50 H V L BNN
+F1 "UDZSTE-173.6B" -90 -135 50 H V L BNN
+F2 "SODFL2512X90N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Rohm" 0 0 50 H I L BNN "MF"
+F5 "\nZener Diode 3.6 V 200 mW ±3% Surface Mount UMD2\n" 0 0 50 H I L BNN "Description"
+F6 "SOD-323 Rohm" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/UDZSTE-173.6B/Rohm/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "https://www.snapeda.com/parts/UDZSTE-173.6B/Rohm/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F10 "UDZSTE-173.6B" 0 0 50 H I L BNN "MP"
+F11 "https://pricing.snapeda.com/search?q=UDZSTE-173.6B&ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F12 "In Stock" 0 0 50 H I L BNN "Availability"
+F13 "Rohm Semiconductor" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 -50 -50 50 0 N
+P 2 0 0 10 50 0 -50 50 N
+P 2 0 0 10 50 50 50 0 N
+P 2 0 0 10 -50 50 -50 -50 N
+P 2 0 0 10 50 0 50 -50 N
+P 2 0 0 10 -100 0 100 0 N
+X ~ A -200 0 100 R 40 40 0 0 P 
+X ~ C 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

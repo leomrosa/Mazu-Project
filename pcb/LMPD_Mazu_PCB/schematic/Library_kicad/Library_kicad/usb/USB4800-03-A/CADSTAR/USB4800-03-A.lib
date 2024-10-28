@@ -1,0 +1,17 @@
+.USB4800-03-A :1 ;USB Connectors USB2.0 Type C Rcpt, SMT, Hrz, 3.5mm elevated, 16 Pin
+USB480003A
+*STM J
+*NGS
+*PNM 1=A1 2=A4 3=A5 4=A6 5=A7 6=A8 7=A9 8=A12 9=B5 10=B6 11=B7 12=B8 13=MH3 14=MH4 15=MH5 16=MH6
+*PLB 1="GND_1" 2="VBUS_1" 3="CC1" 4="DP1" 5="DN1" 6="SBU1" 7="VBUS_2" 8="GND_2" 9="CC2" 10="DP2" 11="DN2" 12="SBU2" 13="MH3" 14="MH4" 15="MH5" 16="MH6"
+*MXP 18
+*DFN USB4800-03-A
+~!Mouser Part Number (640-USB4800-03-A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/GCT/USB4800-03-A?qs=vvQtp7zwQdMkfG8vViEZoQ%3D%3D)
+~!Manufacturer_Name (GCT (GLOBAL CONNECTOR TECHNOLOGY))
+~!Manufacturer_Part_Number (USB4800-03-A)
+~!Link Datasheet (https://gct.co/connector/usb4800)
+~!Height (5.58mm)
+~!3D_Model (USB4800-03-A)
+USB4800-03-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

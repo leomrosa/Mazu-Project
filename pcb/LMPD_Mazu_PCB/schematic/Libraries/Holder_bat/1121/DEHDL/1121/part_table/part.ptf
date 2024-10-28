@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1121'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Keystone Electronics", "1121" (!) = "", "1121", "Other", "", "", "Cylindrical Battery Contacts, Clips, Holders & Springs THM BATTERY HOLDER FOR 20700 & 21700", "https://www.keyelco.com/product.cfm/product_id/14553", "17.27 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB4800_03_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "GCT (GLOBAL CONNECTOR TECHNOLOGY)", "USB4800-03-A" (!) = "", "USB480003A", "Other", "640-USB4800-03-A", "https://www.mouser.co.uk/ProductDetail/GCT/USB4800-03-A?qs=vvQtp7zwQdMkfG8vViEZoQ%3D%3D", "USB Connectors USB2.0 Type C Rcpt, SMT, Hrz, 3.5mm elevated, 16 Pin", "https://gct.co/connector/usb4800", "5.58 mm"
+END_PART
+
+END.

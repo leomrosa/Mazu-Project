@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "Theme.Myapp.MySplash" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
+        <item name="postSplashScreenTheme">@style/Theme.SelectDeviceActivity</item>
+    </style>
+</resources>

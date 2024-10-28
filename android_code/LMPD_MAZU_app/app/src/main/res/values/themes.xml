@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SelectDeviceActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name = "android:windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SelectDeviceActivity" parent="Base.Theme.SelectDeviceActivity" >
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+</resources>

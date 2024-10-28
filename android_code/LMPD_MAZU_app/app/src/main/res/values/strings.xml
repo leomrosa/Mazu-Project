@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SelectDeviceActivity</string>
+    <string name="refresh">Find LIMPID</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="ClickLogin">Click to Login</string>
+    <string name="ClickReg">Click to Register</string>
+    <string name="Logout">LogOut</string>
+
+    <string name="mode">  water</string>
+
+
+    <string name="sendTemp">Temperature</string>
+    <string name="sendPH">PH</string>
+    <string name="disconnect">off</string>
+
+    <string name="modeoffon">online</string>
+    <string name="waterType">--</string>
+
+
+
+
+</resources>

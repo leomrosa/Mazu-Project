@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/send_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendTemp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/send_PH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendPH"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_temperature"/>
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_PH"/>
+
+    <TextView
+        android:id="@+id/sensorValueTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="216dp"
+        android:text="--"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:maxLength="4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disconnect" />
+
+    <TextView
+        android:id="@+id/sensorValuePH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="96dp"
+        android:text="--"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:maxLength="4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensorValueTemp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
